@@ -1,0 +1,88 @@
+<!-limitations of css
+color
+fontsize
+background image
+design,layout---->
+
+<!----Syntax
+Selector{
+    property:value;
+    property1:value1
+    }---->
+
+ <!----1.element Selector
+ h1{
+    color:green;
+ }-------->  
+
+ <!Doctype html>
+ <html>
+    <head>
+        <title>Css Introduction</title>
+        <style>
+            h1{
+                color:red;
+                font-size: 100px;
+            }
+
+            h2{
+                color:green;
+                font-size:30px;
+            }
+ <!-----Grouping selector-->
+            h1,h2{
+                color:red;
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                ;
+            }
+
+            <!--Class Selector-------->
+            .add{
+                    
+                    color:blue;
+
+                }
+
+             .padding{
+                padding:10px 5px 6px 20px;  
+                border:5px solid green; 
+                margin:100px;  
+                margin-left:10px;
+
+             }
+
+             .rect{
+                border:3px solid red;
+                height:150px;
+                width:300px;
+                height:25px;
+                width:50px;
+
+             }
+
+             .square{
+                border:4px solid gray;
+                height:100px;
+                width:100px;
+                
+             }
+            
+
+
+            
+        </style>
+        <title>Css Introduction</title>     
+    </head>
+    <body>
+        <div class="square"></div>
+        <div class="rect"><div class="rect"></div></div>
+        <h1>Css- Selection Syntax</h1>
+        <h2>Css</h2>
+        <h1 class="add">Add anything</h1>
+        <h1 class="padding">Css syntax</h1>
+        
+
+
+    </body>
+ </html>
