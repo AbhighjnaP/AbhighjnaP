@@ -8,3 +8,32 @@
     position: fixed;
     bottom:0;
 }
+
+.relative{
+    position:relative;
+    left:100px;
+    top:0;
+}
+
+.absolute{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.absoluteVirat{
+    position:absolute;
+    top:0;
+    left:0;
+    
+}
+
+.staticAbd{
+    position:static;
+    top:0;
+    right:0;
+}
+
+.imageparent{
+    position:relative;
+}
