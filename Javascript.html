@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            console.log("Introducton of JavaScript")
+           // <!--console.log() is used as print command same as SOP in java
+               // ; is not mandatory in Js----->
+
+                //how to create variable
+                //var keyword variable name;
+                //console is an object reference
+                //log is a function
+
+                var a; //declaration
+                console.log(a)
+                console.log(typeof(a)) //datatype - undefined
+                a=10;  //initialization
+                console.log(a)
+                console.log(typeof(a))  //datatype - number
+                a="javscript"
+                console.log(a)
+                console.log(typeof(a))  //datatype - string
+                a=true
+                console.log(a) 
+                console.log(typeof(a))  //datatype - boolean
+                //typeof() is a function which gives a datatype
+
+            //function
+            //how to declare a function
+            //function is used to perform task
+
+            //syntax for function
+           // function functionname(){ }
+
+           function display(){  //declare a func
+            console.log("We are learning function in javascript")
+           }
+           display() //calling a function
+
+           //to parameterized a function
+
+           function add(a,b){
+            console.log(a+b)
+           }
+           add(10,20)
+
+           
+           function callFromclickbuttond(){  //to create a click event
+            console.log("We are calling from callFromclickbutton")
+           }
+            
+           function callFromonmousebutton(){  //to create a click event
+            console.log("We are calling from callFromonmousebutton")
+           }
+
+           //creating an event
+        </script>
+    </head>
+    <body>
+        <button onclick="callFromclickbutton()">click me</button>
+
+        <button onmouseover="callFromonmousebutton()">mouse over</button>
+
+        <div id="message"></div>
+           <!-----//document object id=""-->    
+    </body>
+</html>
