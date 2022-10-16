@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function validate(){
+                console.log("Calling validate function")
+              var userName=  document.getElementById("userName")
+                console.log(userName.value)
+                console.log(userName.value.length)
+                if(userName.value =='') {
+                    console.log("Please Enter userName")
+                    var erroruserName=document.getElementById("erroruserName")
+                    erroruserName.innerHTML="Please enter userName"
+                    erroruserName.style.color="red"
+                }
+         
+              }
+
+            function validate(){
+                console.log("calling validate function")
+                var Email= document.getElementById("Email")
+                console.log(Email.value)
+                console.log(Email.value.length)
+                if(Email.value=='') {
+                    console.log("Please Enter Email")
+                    var errorEmail=document.getElementById("errorEmail")
+                    errorEmail.innerHTML="Please enter Email"
+                    errorEmail.style.color="red"
+                }
+            }
+        </script>
+    </head>
+
+        <!-----form-->
+    <body>
+        <form>
+            <div>
+                <label>Enter Username</label>
+                <input type="text" name="userName" id="userName">
+            </div>
+            
+            <button type="button" onclick="validate()">Register</button>
+            <button type="reset">Reset</button>
+
+            <div>
+                <label>Enter Email</label>
+                <input type="text" name="Email" id="Email">
+            </div>
+            
+            <button type="button" onclick="validate()">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+           <!--When you click button-->
+</html>
